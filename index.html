@@ -84,21 +84,24 @@
                 <div class="project-content">
                     <h3>Authentication-App</h3>
                     <p>login & sign-up authentication site built with HTML, CSS & Javascript.</p>
-                    <a class="project-btn" href="https://codewith-ranjeet.github.io/Auth_App/" target="_blank">View Live ↗</a>
+                    <a class="project-btn" href="https://codewith-ranjeet.github.io/Auth_App/" target="_blank">View Live
+                        ↗</a>
                 </div>
             </div>
             <div class="project" id="project2">
                 <div class="project-content">
                     <h3>Portfolio Website</h3>
                     <p>This very site - fully responsive, pure CSS animations & flexbox.</p>
-                    <a class="project-btn" href="https://github.com/codewith-Ranjeet/Portfolio.git" target="_blank">Code on GitHub ↗</a>
+                    <a class="project-btn" href="https://github.com/codewith-Ranjeet/Portfolio.git" target="_blank">Code
+                        on GitHub ↗</a>
                 </div>
             </div>
             <div class="project" id="project3">
                 <div class="project-content">
                     <h3>Calculator</h3>
                     <p> Simple Calculator with local-storage persistence.</p>
-                    <a class="project-btn" href="https://codewith-ranjeet.github.io/Calculator/" target="_blank">View Live ↗</a>
+                    <a class="project-btn" href="https://codewith-ranjeet.github.io/Calculator/" target="_blank">View
+                        Live ↗</a>
                 </div>
             </div>
         </div>
@@ -128,9 +131,22 @@
         <h2 class="section-title">CONTACT ME</h2>
         <p class="contact-tag">Feel free to reach out for collaborations!</p>
         <ul class="contact-links">
-            <li><a href="mailto:ranjeetshiinde2212@gmail.com"><i class="fas fa-envelope"></i>Email</a></li>
-            <li><a href="https://www.linkedin.com/in/shinde-ranjeet"><i
-                        class="fab fa-linkedin"></i>LinkedIn</a></li>
+            <!-- Email Form Popup -->
+            <div class="email-form-container" id="emailForm">
+                <div class="email-form">
+                    <span class="close-btn" onclick="closeForm()">x</span>
+                    <h3>Send me a message</h3>
+                    <form>
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea rows="5" placeholder="Your Message" required></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+
+            <a href="javascript:void(0);" onclick="openForm()"><i class="fas fa-envelope"></i> Mail me</a>
+            <li><a href="https://www.linkedin.com/in/shinde-ranjeet"><i class="fab fa-linkedin"></i>LinkedIn</a></li>
             <li><a href="https://github.com/codewith-Ranjeet"><i class="fab fa-github"></i>GitHub</a></li>
             <li><a href="#"><i class="fab fa-instagram"></i>Instagram</a></li>
         </ul>
